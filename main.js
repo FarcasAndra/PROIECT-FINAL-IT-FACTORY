@@ -3,7 +3,7 @@ const bikeData = [
         name: "BMW R1300GS",
         type: "Adventure",
         price: 17,
-        image: "",
+        image: "img",
     },
     {
         name: "BMW R1300GS",
