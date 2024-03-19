@@ -47,12 +47,6 @@ const bikeData = [
         price: 17,
         image: "image/bike-8.png",
     },
-    {
-        name: "BMW R1300GS",
-        type: "Adventure",
-        price: 17,
-        image: "image/bike-9.png",
-    },
 ];
 // Function to create bike box element 
 const createBikeBox = (bike)=> `
@@ -67,7 +61,7 @@ const createBikeBox = (bike)=> `
     <a href="#" class="book-bt">BOOK BIKE</a>
 </div>  
 `; 
-const bikeContent = document.querySelector('.bikes-content');
+const bikeContent = document.querySelector('.work-box');
 
 //bike-box and bike-content
 bikeData.forEach((bike) =>{

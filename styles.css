@@ -321,3 +321,31 @@ font-size: 17px;
     line-height: 1.3rem;
     margin: 1.4rem 0  0.7rem;
 }
+.work-description{
+    font-size: 0.938rem;
+}
+.destination{
+    background: #f8f8fa;
+}
+.city-box{
+    position: relative;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    margin-bottom: 4rem ;
+    
+}
+.city-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ct-title{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color:var(--bg-color) ;
+}
+.city-name{
+    font-size: 0.938rem;
+    color: var(--bg-color);
+}
