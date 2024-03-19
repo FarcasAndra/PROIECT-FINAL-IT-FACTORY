@@ -297,3 +297,27 @@ font-size: 17px;
 .work .heading{
     text-align: center;
 }
+.work-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 1.5rem;
+}
+.work-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.work-box i{
+    font-size: 1.6rem;
+    color: var(--second-color);
+    background: hsl(25, 93%, 52%, 7%);
+    padding: 12px;
+    border-radius: 50% ;
+}
+.work-title{
+    font-size: 1.125rem;
+    line-height: 1.3rem;
+    margin: 1.4rem 0  0.7rem;
+}
