@@ -99,3 +99,11 @@ let menu = document.querySelector(".menu-icon");
 menu.onclick = () => {
     menu.classList.toggle("move");
 }
+
+
+/*Button Sign up*/
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("signupButton").addEventListener("click", function() {
+        document.getElementById("home").style.display = "block"; 
+    });
+});
